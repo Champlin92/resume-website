@@ -28,9 +28,10 @@
       <ul class="nav-links">
         <li><a href="#about" class="nav-link">About</a></li>
         <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#showcase" class="nav-link">Showcase</a></li>
         <li><a href="#skills" class="nav-link">Skills</a></li>
         <li><a href="#education" class="nav-link">Education</a></li>
-        <li><a href="https://champlin92.github.io/kc-streetcar-dashboard/" target="_blank" class="nav-link" style="color: #10b981; font-weight: 600;">Observability Demo &nearr;</a></li>
+        <li><a href="https://champlin92.github.io/kc-streetcar-dashboard/" target="_blank" rel="noopener noreferrer" class="nav-link nav-link-emerald">Observability Demo &nearr;</a></li>
       </ul>
       <div class="nav-actions">
         <button id="terminalToggleBtn" class="btn btn-outline btn-sm terminal-btn" title="Open Interactive Cyberdeck CLI">
@@ -71,9 +72,9 @@
               <svg class="icon" viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="2" fill="none"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
               <span>GitHub</span>
             </a>
-            <a href="https://champlin92.github.io/kc-streetcar-dashboard/" target="_blank" class="btn btn-outline" style="border-color: #10b981; color: #10b981;">
+            <a href="https://champlin92.github.io/kc-streetcar-dashboard/" target="_blank" rel="noopener noreferrer" class="btn btn-emerald">
               <svg class="icon" viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="2" fill="none"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg>
-              <span>KC Streetcar Observability</span>
+              <span>KC Streetcar Observability &nearr;</span>
             </a>
           </div>
         </div>
@@ -322,6 +323,118 @@
             </div>
           </div>
 
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURED ARCHITECTURE & OBSERVABILITY SHOWCASE -->
+    <section id="showcase" class="showcase-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">APPLIED ARCHITECTURE SHOWCASE</span>
+          <h2 class="section-title">Executive Observability in Action</h2>
+          <p class="section-subtitle">Because my enterprise observability pipelines at Sally Beauty Holdings are proprietary, I engineered this interactive public demonstration modeled on my hometown Kansas City Streetcar network.</p>
+        </div>
+
+        <div class="glass-card showcase-card">
+          <div class="showcase-grid">
+            <div class="showcase-info">
+              <div class="showcase-badge-row">
+                <span class="showcase-pill">LIVE INTERACTIVE DEMO</span>
+                <span class="showcase-location">Kansas City, MO • Civic Transit Telemetry</span>
+              </div>
+              <h3 class="showcase-heading">KC Streetcar Executive Observability Dashboard</h3>
+              <p class="showcase-description">
+                In high-availability operations—whether supporting 3,600+ retail stores from Plano or monitoring a metropolitan transit corridor in Kansas City—raw data is rarely the bottleneck; <strong>signal-to-noise ratio</strong> is. This dashboard demonstrates how to unify real-time streaming telemetry (modeled on GTFS-Realtime feeds) with historical demand baselines into a single-pane-of-glass executive view.
+              </p>
+
+              <ul class="showcase-features">
+                <li>
+                  <strong>Real-Time SLA &amp; Anomaly Detection:</strong> Polls fleet state on a 3-second interval to track rolling On-Time Performance (OTP), automatically triggering incident alerts when route variances breach SLA thresholds.
+                </li>
+                <li>
+                  <strong>Historical Baseline Context (431k+ Riders):</strong> Pairs live vehicle occupancy and schedule adherence against a 12-week historical ridership curve—enabling operators to distinguish normal seasonal load from degraded capacity.
+                </li>
+                <li>
+                  <strong>De-Siloed Operational Clarity:</strong> Built with Next.js, TypeScript, Tailwind CSS, and Recharts, featuring dynamic fleet health thresholds (<code>Cars #801–#806</code>) and embedded contextual definitions so L1–L3 engineers and executives share a unified view of system health.
+                </li>
+              </ul>
+
+              <div class="showcase-actions">
+                <a href="https://champlin92.github.io/kc-streetcar-dashboard/" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+                  <svg class="icon" viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="2" fill="none"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg>
+                  <span>Launch Live Dashboard &nearr;</span>
+                </a>
+                <a href="https://github.com/Champlin92/kc-streetcar-dashboard#readme" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+                  <svg class="icon" viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="2" fill="none"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+                  <span>Read Architecture README &nearr;</span>
+                </a>
+              </div>
+            </div>
+
+            <a href="https://champlin92.github.io/kc-streetcar-dashboard/" target="_blank" rel="noopener noreferrer" class="showcase-preview" title="Click to launch interactive KC Streetcar Executive Dashboard">
+              <div class="preview-window">
+                <div class="preview-header">
+                  <div class="traffic-lights">
+                    <span></span><span></span><span></span>
+                  </div>
+                  <span class="preview-url">champlin92.github.io/kc-streetcar-dashboard</span>
+                  <span class="preview-live-dot">LIVE 3s</span>
+                </div>
+                <div class="preview-body">
+                  <div class="preview-kpis">
+                    <div class="preview-kpi">
+                      <span class="kpi-title">ON-TIME SLA</span>
+                      <span class="kpi-val text-cyan">94.8%</span>
+                      <span class="kpi-sub">Rolling T-60s</span>
+                    </div>
+                    <div class="preview-kpi">
+                      <span class="kpi-title">3-MO RIDERSHIP</span>
+                      <span class="kpi-val text-emerald">431,000</span>
+                      <span class="kpi-sub">May–Jul Baseline</span>
+                    </div>
+                    <div class="preview-kpi">
+                      <span class="kpi-title">ACTIVE FLEET</span>
+                      <span class="kpi-val text-emerald">5 / 6</span>
+                      <span class="kpi-sub">In-Service</span>
+                    </div>
+                  </div>
+
+                  <div class="preview-table">
+                    <div class="preview-table-head">
+                      <span>VEHICLE</span>
+                      <span>STOP LOCATION</span>
+                      <span>STATUS / VARIANCE</span>
+                    </div>
+                    <div class="preview-row">
+                      <span class="car-id">Car #801</span>
+                      <span>Union Station</span>
+                      <span class="status-ok">&#9679; On Time</span>
+                    </div>
+                    <div class="preview-row">
+                      <span class="car-id">Car #802</span>
+                      <span>Crossroads</span>
+                      <span class="status-ok">&#9679; On Time</span>
+                    </div>
+                    <div class="preview-row">
+                      <span class="car-id">Car #803</span>
+                      <span>Power &amp; Light</span>
+                      <span class="status-warn">&#9679; +3 min Delay</span>
+                    </div>
+                    <div class="preview-row">
+                      <span class="car-id">Car #804</span>
+                      <span>City Market</span>
+                      <span class="status-ok">&#9679; On Time</span>
+                    </div>
+                  </div>
+
+                  <div class="preview-footer-cta">
+                    <span>Click to open interactive telemetry simulation &rarr;</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
         </div>
       </div>
     </section>

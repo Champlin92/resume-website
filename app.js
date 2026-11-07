@@ -79,6 +79,7 @@ const CLI_COMMANDS = {
   - skills       : Inspect technical mastery & tooling matrix
   - metrics      : View high-impact quantifiable performance stats
   - experience   : Review career history at Sally Beauty Holdings
+  - showcase     : Inspect KC Streetcar Executive Observability Demo
   - philosophy   : Read core engineering & leadership philosophy
   - education    : View degrees and professional certifications
   - contact      : Display direct contact channels & links
@@ -164,7 +165,15 @@ that delivers undeniable service excellence."
   • Email    : ballardcmax@gmail.com
   • LinkedIn : https://www.linkedin.com/in/max-ballard-0126b111a/
   • GitHub   : https://github.com/Champlin92
-  • Location : Kansas City, MO (Open to Remote or Hybrid)`
+  • Location : Kansas City, MO (Remote for Plano, TX HQ)`,
+
+  showcase: `=== APPLIED ARCHITECTURE SHOWCASE: KC STREETCAR OBSERVABILITY ===
+  • Live Demo : https://champlin92.github.io/kc-streetcar-dashboard/
+  • Repo Docs : https://github.com/Champlin92/kc-streetcar-dashboard#readme
+  • Context   : Public demonstration of single-pane-of-glass executive observability
+                modeled on hometown Kansas City Streetcar GTFS-Realtime telemetry,
+                pairing 3-second rolling OTP polling with a 3-month (431k+ rider)
+                historical demand baseline.`
 };
 
 function initTerminal() {
