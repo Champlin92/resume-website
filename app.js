@@ -142,11 +142,11 @@ const CLI_COMMANDS = {
    • Led tech crew through COVID operations; established foundational training.`,
 
   philosophy: `=== LEADERSHIP & ENGINEERING PHILOSOPHY ===
-"I lead by going first. Whether it's spearheading the diagnosis of a critical
-fileshare architecture failure to drive its permanent replacement, or completing
-Google's AI Professional certification right alongside my engineers, I believe
-leadership is built in the trenches. I build an engine of continual improvement
-that delivers undeniable service excellence."
+"I lead by being the first to jump in—you can't lead from the backseat. Whether
+it's diagnosing a failing enterprise fileshare or earning AI certifications
+right alongside my engineers, I believe leadership is built in the trenches.
+I build an engine of continual improvement that delivers undeniable service
+excellence."
                                                      — Max Ballard`,
 
   education: `=== EDUCATION & CERTIFICATIONS ===
