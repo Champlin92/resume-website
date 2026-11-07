@@ -1202,10 +1202,24 @@ h1, h2, h3, h4 {
     display: none !important;
   }
 
+  .hero-text::before {
+    content: "MAX BALLARD";
+    display: block;
+    font-size: 22pt;
+    font-weight: 800;
+    color: #111827;
+    letter-spacing: -0.02em;
+    margin-bottom: 0.1rem;
+  }
+
   .hero-title {
-    font-size: 20pt !important;
-    color: #111827 !important;
-    margin-bottom: 0.25rem !important;
+    font-size: 13pt !important;
+    color: #374151 !important;
+    margin-bottom: 0.35rem !important;
+  }
+
+  .hero-title br {
+    display: none !important;
   }
 
   .text-gradient {

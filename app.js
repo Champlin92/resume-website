@@ -89,64 +89,70 @@ const CLI_COMMANDS = {
 
   skills: `=== TECHNICAL COMPETENCY MATRIX ===
 [Scripting & Automation]
-  • Python (Advanced - Team Uplift Leader)
-  • Bash / POSIX Shell (Advanced)
-  • PowerShell & Automation Scripting (Proficient)
-  • REST API Integrations (Advanced)
-  • Oracle SQL & Query Tuning (Proficient)
+  • Python Automation (Advanced)
+  • Bash Shell (Proficient)
+  • PowerShell (Proficient)
+  • REST API Integrations (Proficient)
+  • SQL (Proficient)
 
 [Infrastructure & Middleware]
-  • Globalscape EFT & Batch Operations (Expert)
-  • Oracle WebLogic Cluster (Advanced - 24hr deployment veteran)
-  • Red Hat Enterprise Linux (RHEL) (Advanced)
-  • Apache HTTP & Web Tiers (Advanced)
-  • Windows Server & Microsoft Azure (Proficient)
+  • Enterprise EFT & Workload Orchestration (Expert)
+  • Oracle WebLogic Cluster (Expert - 24hr architecture recovery)
+  • Windows Server (Advanced)
+  • Red Hat Enterprise Linux (RHEL) (Proficient)
+  • Apache (Proficient)
 
-[Observability & Incident Operations]
-  • Dynatrace Observability Telemetry (Advanced)
-  • Rundeck Orchestration (Advanced)
+[Observability & Operations]
+  • Observability & Telemetry (Advanced)
+  • Rundeck & Workflow Orchestration (Advanced)
   • Oracle Xstore POS Diagnostics (Expert - 3600+ stores)
-  • Dynamic Ticket Rerouting (30% call reduction)
+  • Dynamic Ticket Rerouting (Advanced)
+  • Batch Job Scheduling & SLA Mgmt (Expert)
 
 [Leadership & Strategy]
-  • AI Readiness & Evaluation Frameworks
-  • Talent Upskilling (100% team Python certification)
-  • Knowledgebase Architecture (Authored 55% of team KB)
+  • AI Readiness & Tool Adoption (Strategic)
+  • Team Coaching & AI/Python Upskilling (Proven)
+  • Knowledgebase Architecture (Expert - Xstore KB & 55% of Middleware KB)
   • ITIL Service Management (In Progress)`,
 
   metrics: `=== QUANTIFIABLE IMPACT METRICS ===
-  [ $420k/hr ] Revenue Protected via Custom Python Observability Pipelines
-  [  1,300+  ] Labor Hours Saved Annually via ServiceNow L3 Auto-Routing
+  [  3,600+  ] North American Retail Stores & Backend Systems Supported
+  [ 13,000+  ] Labor Hours Saved Annually across Automation & Self-Healing Workflows
   [   70%    ] Dev Acceleration by securely integrating Claude AI workflows
-  [  3,600+  ] North American Retail Stores & Backend Systems Supported`,
+  [   100%   ] Team AI & Python Upskilled (Google AI Pro & Python Automation Certs)`,
 
   experience: `=== CAREER PROGRESSION @ SALLY BEAUTY HOLDINGS ===
-1. [Mar 2024 - Present] IT Manager, InfraOps & Automation
-   • Built auto-healing pipeline saving 1,300+ hrs/yr & bypassing L1/L2 triage.
+1. [Mar 2024 - Present] IT Manager, InfraOps & Automation (Plano, TX • Remote)
+   • Delivered 13,000+ hrs/yr saved across automation & ServiceNow L3 auto-routing.
    • Architected observability protecting $420k/hr during WebLogic outages.
+   • Led root-cause diagnosis & replacement project for failing enterprise fileshare.
    • Steered enterprise AI strategy, accelerating script dev by 70% with Claude.
 
-2. [Mar 2023 - Mar 2024] Supervisor, Middleware Team
+2. [Mar 2023 - Mar 2024] Supervisor, Middleware Team (Plano, TX • Remote)
+   • Technical Manager for replacement & upgrade of failing legacy EFT architecture.
    • Directed daily ops, project delegation, and high-severity incident escalation.
 
-3. [Feb 2021 - Mar 2023] Middleware Systems Engineer
-   • Salvaged critical 6-node WebLogic cluster rollout during 24-hr deployment.
-   • De-siloed Globalscape EFT; authored 55% of team technical knowledgebase.
+3. [Feb 2021 - Mar 2023] Middleware Systems Engineer (Plano, TX • Remote)
+   • Engineered 6-node WebLogic POS cluster; salvaged critical 24-hr upgrade from rollback by manually repairing corrupted install config files.
+   • De-siloed enterprise EFT operations; authored 55% of team technical KB.
 
-4. [Feb 2019 - Feb 2021] Service Desk Lead & Analyst
+4. [Feb 2019 - Feb 2021] Service Desk Lead & Analyst (Plano, TX)
+   • Core project team member transitioning legacy POS to Oracle Xstore; authored entire Xstore knowledgebase.
    • Led tech crew through COVID operations; established foundational training.`,
 
   philosophy: `=== LEADERSHIP & ENGINEERING PHILOSOPHY ===
-"I lead by going first. With extensive hands-on experience and a proven
-track record of uplifting teams through mentorship and systematic knowledgebase
-management, I build an engine of continual improvement and consistency that
-delivers service excellence."
+"I lead by going first. Whether it's spearheading the diagnosis of a critical
+fileshare architecture failure to drive its permanent replacement, or completing
+Google's AI Professional certification right alongside my engineers, I believe
+leadership is built in the trenches. I build an engine of continual improvement
+that delivers undeniable service excellence."
                                                      — Max Ballard`,
 
   education: `=== EDUCATION & CERTIFICATIONS ===
 [Certifications]
   • Google AI Professional Certification
   • Google IT Support Professional Certification
+  • Google IT Automation with Python (In Progress)
   • ITIL 4 Foundation (In Progress)
 
 [Academic Background]
