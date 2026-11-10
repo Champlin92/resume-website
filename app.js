@@ -143,17 +143,19 @@ const CLI_COMMANDS = {
 
   philosophy: `=== LEADERSHIP & ENGINEERING PHILOSOPHY ===
 "I lead by being the first to jump in—you can't lead from the backseat. Whether
-it's diagnosing a failing enterprise fileshare or earning AI certifications
-right alongside my engineers, I believe leadership is built in the trenches.
-I build an engine of continual improvement that delivers undeniable service
-excellence."
+it's diagnosing a failing enterprise fileshare or earning Python and AI
+certifications right alongside my engineers, I believe leadership is built in
+the trenches. I build an engine of continual improvement that delivers
+undeniable service excellence."
                                                      — Max Ballard`,
 
   education: `=== EDUCATION & CERTIFICATIONS ===
 [Certifications]
+  • Google Python Automation Professional Certification
+    (6-course program: Python scripting, OS interaction, regex, Git/GitHub,
+     troubleshooting/debugging, configuration management & REST API automation)
   • Google AI Professional Certification
   • Google IT Support Professional Certification
-  • Google IT Automation with Python (In Progress)
   • ITIL 4 Foundation (In Progress)
 
 [Academic Background]
